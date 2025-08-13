@@ -19,4 +19,3 @@ LegalMentor-AI is a web-based platform designed to automate legal research, cita
 - **AI Frameworks:** LangChain, Ollama
 - **Models:** Phi-3, mxbai-embed-large, all-MiniLM
 
-## 📂 Project Structure
