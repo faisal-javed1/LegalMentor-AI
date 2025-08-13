@@ -1,30 +1,22 @@
-# Protected Route Code Review
+# LegalMentor-AI
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+**AI-powered legal research assistant and case management system for Pakistani law.**
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/f2021376068-umtedupks-projects/v0-protected-route-code-review)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/zS3zLk02mFe)
+## 📜 Overview
+LegalMentor-AI is a web-based platform designed to automate legal research, citation retrieval, and document management for lawyers, law firms, and legal aid organizations. Using **Phi-3 LLM**, **ChromaDB**, and **LangChain**, the system provides context-aware legal answers with citations in under 10 seconds.
 
-## Overview
+## 🚀 Features
+- **AI Chatbot** – Natural language interaction for legal questions.
+- **Semantic Search** – Retrieve relevant case laws and citations from ChromaDB.
+- **Lawyer Dashboard** – Manage cases, documents, and to-do lists.
+- **Fast Response** – Optimized RAG pipeline with caching and parallel processing.
+- **Offline Capability** – Runs locally without cloud dependencies.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🛠 Tech Stack
+- **Frontend:** Next.js
+- **Backend:** FastAPI (Python)
+- **Database:** ChromaDB (vector database)
+- **AI Frameworks:** LangChain, Ollama
+- **Models:** Phi-3, mxbai-embed-large, all-MiniLM
 
-## Deployment
-
-Your project is live at:
-
-**[https://vercel.com/f2021376068-umtedupks-projects/v0-protected-route-code-review](https://vercel.com/f2021376068-umtedupks-projects/v0-protected-route-code-review)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/zS3zLk02mFe](https://v0.dev/chat/projects/zS3zLk02mFe)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 📂 Project Structure
